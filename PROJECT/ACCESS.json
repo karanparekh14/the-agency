@@ -1,0 +1,12 @@
+{
+  "owner": "karan",
+  "agents": {
+    "karan":       {"kind": "human",     "paths": ["**"]},
+    "claude-code": {"kind": "dev-llm",   "paths": ["**"]},
+    "codex":       {"kind": "dev-llm",   "paths": ["**"]},
+    "ops":         {"kind": "own-agent", "paths": ["examples/sample_*.json"]},
+    "assistant":   {"kind": "own-agent", "paths": []},
+    "handler":     {"kind": "own-agent", "paths": ["docs/timeline.md"]}
+  },
+  "protected": ["PROJECT/ACCESS.json", "agency/gate/**", "hooks/**", ".github/**"]
+}

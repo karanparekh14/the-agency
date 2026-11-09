@@ -1,0 +1,5 @@
+#!/bin/sh
+# Every commit says who made it and why, stays inside that author's files, and has a clean message.
+# See agency/gate/trace.py.
+PY=$(command -v python3 || command -v python)
+exec "$PY" -m agency.gate.trace --msg "$1"

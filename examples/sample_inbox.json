@@ -1,0 +1,22 @@
+{
+  "owner_threads": ["t-dentist", "t-landlord"],
+  "noise_senders": ["deals@shop.example", "news@digest.example"],
+  "mail": [
+    {"id": "m1", "thread": "t-bank", "sender": "alerts@bank.example", "subject": "Your sign-in code",
+     "body": "Your sign-in code is 731905. It expires in 10 minutes.", "tab": "updates"},
+    {"id": "m2", "thread": "t-landlord", "sender": "office@flats.example", "subject": "Re: kitchen tap",
+     "body": "The plumber can come Thursday between 9 and 11. Does that work?", "tab": "primary"},
+    {"id": "m3", "thread": "t-shop", "sender": "deals@shop.example", "subject": "48 hours only: 40% off",
+     "body": "Everything must go. Shop now.", "tab": "promotions"},
+    {"id": "m4", "thread": "t-card", "sender": "billing@card.example", "subject": "Payment due on card ending 4421",
+     "body": "A payment on card 4000 1234 5678 4421 is due on the 14th. Minimum payment applies.", "tab": "updates"},
+    {"id": "m5", "thread": "t-social", "sender": "noreply@social.example", "subject": "You have 3 new followers",
+     "body": "See who followed you this week.", "tab": "social"},
+    {"id": "m6", "thread": "t-course", "sender": "team@course.example", "subject": "Assignment deadline moved",
+     "body": "The deadline for the final assignment is now Monday at noon.", "tab": "promotions"},
+    {"id": "m7", "thread": "t-store", "sender": "orders@store.example", "subject": "Your receipt",
+     "body": "Thanks for your order. Receipt attached.", "tab": "updates"},
+    {"id": "m8", "thread": "t-misc", "sender": "hello@club.example", "subject": "Club newsletter",
+     "body": "Photos from last month's meetup are up.", "tab": "updates"}
+  ]
+}

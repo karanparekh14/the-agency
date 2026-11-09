@@ -1,0 +1,5 @@
+#!/bin/sh
+# Blocks commits whose staged content contains secrets or unknown personal contact details.
+# Scans the staged copy of each file, not the working copy. See agency/gate/scan.py.
+PY=$(command -v python3 || command -v python)
+git diff --cached --name-only -z --diff-filter=ACMRT | xargs -0 "$PY" -m agency.gate.scan --staged

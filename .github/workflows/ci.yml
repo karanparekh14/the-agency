@@ -1,0 +1,32 @@
+name: gate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # the traceability check reads the whole history
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Secret and personal-data scan
+        run: python -m agency.gate.scan
+      - name: Traceability of every commit
+        run: python -m agency.gate.trace --history
+      - name: Offline regression suites
+        run: python -m agency.gate.run_tests
+      - name: Demo runs
+        run: |
+          python examples/handler_demo.py
+          python examples/inbox_demo.py
