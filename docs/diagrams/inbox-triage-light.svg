@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="How the Handler triages mail: rules first, a costed model judge for the rest, a log that keeps only what it should">
+<title>How the Handler triages mail: rules first, a costed model judge for the rest, a log that keeps only what it should</title>
+<rect width="1200" height="700" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+<text x="40" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2328" text-anchor="start">How the Handler reads the mail without reading it all</text>
+<text x="40" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a" text-anchor="start">Every 2 minutes by day, hourly overnight. Plain rules decide first, for free; a model judges only what is left.</text>
+<rect x="30" y="120" width="190" height="100" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="30" y="130" width="4" height="80" rx="2" fill="#0969da"/>
+<text x="48" y="147" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">New email</text>
+<text x="48" y="170.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">picked up by the</text>
+<text x="48" y="189.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">mail watch</text>
+<rect x="260" y="112" width="520" height="300" rx="16" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="280" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">PLAIN RULES  ·  NO MODEL, NO COST</text>
+<rect x="276" y="156" width="488" height="64" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="294" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1f2328" text-anchor="start">Looks like a one-time code</text>
+<text x="294" y="204" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">its text is never stored</text>
+<rect x="709.2" y="176" width="46.8" height="22" rx="11.0" fill="#ffebe9"/>
+<text x="732.6" y="190.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#cf222e" text-anchor="middle">CODE</text>
+<rect x="276" y="234" width="488" height="64" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="294" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1f2328" text-anchor="start">A reply in a thread the owner wrote in</text>
+<text x="294" y="282" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">always worth a look</text>
+<rect x="673.2" y="254" width="82.8" height="22" rx="11.0" fill="#dafbe1"/>
+<text x="714.6" y="268.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1a7f37" text-anchor="middle">IMPORTANT</text>
+<rect x="276" y="312" width="488" height="64" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="294" y="338" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#1f2328" text-anchor="start">A known noise sender</text>
+<text x="294" y="360" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">kept short, never posted</text>
+<rect x="702.0" y="332" width="54.0" height="22" rx="11.0" fill="#e7f0fb"/>
+<text x="729.0" y="346.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0969da" text-anchor="middle">NOISE</text>
+<defs><marker id="arrow1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow1s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 220 170 L 256 170" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<text x="532" y="437" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#57606a" text-anchor="start">none matched</text>
+<defs><marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow2s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 520 412 L 520 452" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<rect x="260" y="456" width="520" height="120" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="260" y="466" width="4" height="100" rx="2" fill="#b45309"/>
+<text x="278" y="483" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Model judge</text>
+<text x="278" y="506.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">one costed call per email, written to a cost ledger;</text>
+<text x="278" y="525.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">it answers with one of:</text>
+<rect x="278" y="536" width="82.8" height="22" rx="11.0" fill="#dafbe1"/>
+<text x="319.4" y="550.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1a7f37" text-anchor="middle">IMPORTANT</text>
+<rect x="368.8" y="536" width="39.599999999999994" height="22" rx="11.0" fill="#e7f0fb"/>
+<text x="388.6" y="550.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0969da" text-anchor="middle">FYI</text>
+<rect x="416.4" y="536" width="54.0" height="22" rx="11.0" fill="#e7f0fb"/>
+<text x="443.4" y="550.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0969da" text-anchor="middle">NOISE</text>
+<rect x="260" y="596" width="520" height="84" rx="12" fill="#fff8c5" stroke="#9a6700" stroke-width="1.3"/>
+<text x="280" y="624" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#9a6700" text-anchor="start">No clear answer, or the call failed  →  PENDING</text>
+<text x="280" y="650.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">never turned into a guess: it is judged again on the next run</text>
+<defs><marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#9a6700"/></marker><marker id="arrow3s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#9a6700"/></marker></defs>
+<path d="M 520 576 L 520 594" fill="none" stroke="#9a6700" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow3)"/>
+<rect x="820" y="112" width="350" height="410" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<text x="840" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Mail log (plain text)</text>
+<text x="840" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">what every agent reads instead of the mailbox</text>
+<text x="840" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">IMPORTANT, FYI</text>
+<text x="840" y="218" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">the whole text, up to 20,000</text>
+<text x="840" y="237" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">characters</text>
+<text x="840" y="274" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">NOISE</text>
+<text x="840" y="296" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">the first 500 characters, enough</text>
+<text x="840" y="315" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">to catch a misjudged email later</text>
+<text x="840" y="352" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">CODE</text>
+<text x="840" y="374" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">nothing at all</text>
+<rect x="836" y="420" width="318" height="86" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="852" y="444.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">Card, account and loan numbers are</text>
+<text x="852" y="462.46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">masked to their last four digits</text>
+<text x="852" y="480.92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">before anything is written.</text>
+<defs><marker id="arrow4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow4s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 780 262 L 816 262" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow4)"/>
+<defs><marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow5s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 780 516 L 800 516 L 800 400 L 816 400" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow5)"/>
+<rect x="820" y="540" width="350" height="140" rx="12" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.3"/>
+<text x="840" y="568" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Summaries at fixed times</text>
+<text x="840" y="594.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">only what is new since the last one;</text>
+<text x="840" y="612.46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">a quiet slot posts nothing and logs</text>
+<text x="840" y="630.92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">why, because a silent job and a broken</text>
+<text x="840" y="649.38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">one look the same from outside</text>
+<defs><marker id="arrow6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a7f37"/></marker><marker id="arrow6s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a7f37"/></marker></defs>
+<path d="M 995 522 L 995 538" fill="none" stroke="#1a7f37" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow6)"/>
+</svg>

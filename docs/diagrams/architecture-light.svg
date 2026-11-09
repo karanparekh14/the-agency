@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" role="img" aria-label="Architecture of The Agency: three WhatsApp agents and a Handler on one desktop">
+<title>Architecture of The Agency: three WhatsApp agents and a Handler on one desktop</title>
+<rect width="1200" height="1000" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+<text x="40" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2328" text-anchor="start">How The Agency fits together</text>
+<text x="40" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a" text-anchor="start">One always-on Windows desktop. The agents live in WSL2 Ubuntu; Windows-only tools are reached through interop.</text>
+<text x="40" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">PEOPLE, ON WHATSAPP</text>
+<text x="296" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">GATEWAY</text>
+<text x="976" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">TOOLS AND BRIDGES</text>
+<rect x="30" y="140" width="230" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="30" y="150" width="4" height="76" rx="2" fill="#0f766e"/>
+<text x="48" y="167" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Team group</text>
+<text x="48" y="190.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">a small business team</text>
+<text x="48" y="209.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">talks to the Operations agent</text>
+<rect x="30" y="252" width="230" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="30" y="262" width="4" height="76" rx="2" fill="#7c3aed"/>
+<text x="48" y="279" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Private chat</text>
+<text x="48" y="302.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">two people</text>
+<text x="48" y="321.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">talk to the Assistant</text>
+<rect x="30" y="364" width="230" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="30" y="374" width="4" height="76" rx="2" fill="#b45309"/>
+<text x="48" y="391" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Handler group</text>
+<text x="48" y="414.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">the owner, from his phone,</text>
+<text x="48" y="433.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">commands everything</text>
+<rect x="30" y="476" width="230" height="132" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="30" y="486" width="4" height="112" rx="2" fill="#b45309"/>
+<text x="48" y="503" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Owner's phone</text>
+<text x="48" y="526.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">texts, missed calls and</text>
+<text x="48" y="545.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">voicemail reach the Handler</text>
+<text x="48" y="564.34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">through a token that can</text>
+<text x="48" y="583.51" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">only add alerts</text>
+<rect x="286" y="140" width="200" height="320" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="286" y="150" width="4" height="300" rx="2" fill="#0969da"/>
+<text x="304" y="167" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">OpenClaw gateway</text>
+<text x="304" y="190.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">systemd user service</text>
+<text x="304" y="209.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start"></text>
+<text x="304" y="228.34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">each group is bound to</text>
+<text x="304" y="247.51" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">exactly one agent</text>
+<text x="304" y="266.68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start"></text>
+<text x="304" y="285.85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">turns run on the Claude</text>
+<text x="304" y="305.02" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">CLI: Sonnet and Haiku</text>
+<text x="304" y="324.19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start"></text>
+<text x="304" y="343.36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">in large groups only</text>
+<text x="304" y="362.53" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">mentions reach the model</text>
+<rect x="286" y="476" width="200" height="132" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="286" y="486" width="4" height="112" rx="2" fill="#0969da"/>
+<text x="304" y="503" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Outbox sender</text>
+<text x="304" y="526.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">walled agents never post</text>
+<text x="304" y="545.17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">themselves: a trusted</text>
+<text x="304" y="564.34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">process checks each</text>
+<text x="304" y="583.51" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#57606a" text-anchor="start">message, then posts it</text>
+<rect x="506" y="108" width="448" height="516" rx="16" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="526" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">AGENTS  ·  WSL2 UBUNTU</text>
+<rect x="522" y="146" width="232" height="126" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="522" y="156" width="4" height="106" rx="2" fill="#0f766e"/>
+<text x="540" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Operations agent</text>
+<rect x="540" y="184" width="135.3" height="21.5" rx="10.75" fill="#e6f6f4"/>
+<text x="607.65" y="198.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f766e" text-anchor="middle">walled Linux user</text>
+<text x="540" y="220.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">report runs 10:30 and 15:00</text>
+<text x="540" y="238.46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">timesheets · scorecard</text>
+<rect x="522" y="286" width="232" height="126" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="522" y="296" width="4" height="106" rx="2" fill="#7c3aed"/>
+<text x="540" y="313" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Assistant</text>
+<rect x="540" y="324" width="135.3" height="21.5" rx="10.75" fill="#f3edff"/>
+<text x="607.65" y="338.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7c3aed" text-anchor="middle">walled Linux user</text>
+<text x="540" y="360.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">reminders · research · links</text>
+<text x="540" y="378.46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">checked pictures · voice</text>
+<rect x="522" y="426" width="232" height="182" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<rect x="522" y="436" width="4" height="162" rx="2" fill="#b45309"/>
+<text x="540" y="453" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Handler</text>
+<rect x="540" y="464" width="80.1" height="21.5" rx="10.75" fill="#fff4e0"/>
+<text x="580.05" y="478.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#b45309" text-anchor="middle">read-only</text>
+<text x="540" y="500.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">mail triage every 2 minutes</text>
+<text x="540" y="518.46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">health every 10 minutes</text>
+<text x="540" y="536.92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">summaries · usage · alerts</text>
+<text x="540" y="555.38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">acts only by writing visible</text>
+<text x="540" y="573.84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">command lines in its reply</text>
+<rect x="772" y="286" width="170" height="322" rx="12" fill="#ffffff" stroke="#b45309" stroke-width="1.8"/>
+<text x="788" y="313" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2328" text-anchor="start">Dispatcher</text>
+<text x="788" y="338.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">Plain code, no model.</text>
+<text x="788" y="355.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">Runs a command line</text>
+<text x="788" y="373.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">only if:</text>
+<circle cx="792" cy="394" r="3" fill="#b45309"/>
+<text x="802" y="398" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328" text-anchor="start">it came from the</text>
+<text x="802" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328" text-anchor="start">owner's number</text>
+<circle cx="792" cy="446" r="3" fill="#b45309"/>
+<text x="802" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328" text-anchor="start">he asked for it</text>
+<circle cx="792" cy="476" r="3" fill="#b45309"/>
+<text x="802" y="480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1f2328" text-anchor="start">it crosses no wall</text>
+<text x="788" y="512.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">A line copied from mail</text>
+<text x="788" y="529.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">or a page it read is</text>
+<text x="788" y="546.08" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">refused outright.</text>
+<rect x="788" y="568" width="156.6" height="21" rx="10.5" fill="#fff4e0"/>
+<text x="866.3" y="581.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">every decision logged</text>
+<text x="788" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#b45309" text-anchor="start">RELAYS</text>
+<text x="788" y="184.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#b45309" text-anchor="start">only when the owner</text>
+<text x="788" y="201.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#b45309" text-anchor="start">explicitly asks</text>
+<line x1="260" y1="188" x2="286" y2="188" stroke="#0f766e" stroke-width="2.2"/>
+<circle cx="260" cy="188" r="4" fill="#0f766e"/>
+<circle cx="286" cy="188" r="4" fill="#0f766e"/>
+<line x1="260" y1="300" x2="286" y2="300" stroke="#7c3aed" stroke-width="2.2"/>
+<circle cx="260" cy="300" r="4" fill="#7c3aed"/>
+<circle cx="286" cy="300" r="4" fill="#7c3aed"/>
+<line x1="260" y1="412" x2="286" y2="412" stroke="#b45309" stroke-width="2.2"/>
+<circle cx="260" cy="412" r="4" fill="#b45309"/>
+<circle cx="286" cy="412" r="4" fill="#b45309"/>
+<defs><marker id="arrow1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker><marker id="arrow1s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker></defs>
+<path d="M 486 209 L 520 209" fill="none" stroke="#0f766e" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<defs><marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/></marker><marker id="arrow2s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/></marker></defs>
+<path d="M 486 349 L 520 349" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<defs><marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker><marker id="arrow3s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker></defs>
+<path d="M 486 440 L 500 440 L 500 517 L 520 517" fill="none" stroke="#b45309" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow3)"/>
+<defs><marker id="arrow4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker><marker id="arrow4s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker></defs>
+<path d="M 754 517 L 770 517" fill="none" stroke="#b45309" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow4)"/>
+<defs><marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker><marker id="arrow5s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker></defs>
+<path d="M 772 330 L 763 330 L 763 230 L 756 230" fill="none" stroke="#b45309" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow5)"/>
+<defs><marker id="arrow6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker><marker id="arrow6s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker></defs>
+<path d="M 772 370 L 756 370" fill="none" stroke="#b45309" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow6)"/>
+<defs><marker id="arrow7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow7s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 522 596 L 488 596" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow7)"/>
+<rect x="970" y="140" width="200" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="986" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328" text-anchor="start">Outlook via COM</text>
+<text x="986" y="188.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">Windows · timesheets filed,</text>
+<text x="986" y="205.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">reminders saved as drafts</text>
+<circle cx="1154" cy="222" r="4.5" fill="#0f766e"/>
+<rect x="970" y="246" width="200" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="986" y="272" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328" text-anchor="start">Edge via DevTools</text>
+<text x="986" y="294.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">Windows · browser tasks and</text>
+<text x="986" y="311.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">a signed-out reader</text>
+<circle cx="1154" cy="328" r="4.5" fill="#0f766e"/>
+<circle cx="1140" cy="328" r="4.5" fill="#7c3aed"/>
+<circle cx="1126" cy="328" r="4.5" fill="#b45309"/>
+<rect x="970" y="352" width="200" height="114" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="986" y="378" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328" text-anchor="start">Apps Script bridges</text>
+<text x="986" y="400.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">Handler: read, draft, calendar,</text>
+<text x="986" y="417.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">no send function at all;</text>
+<text x="986" y="435.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">Operations: sends its report</text>
+<circle cx="1154" cy="452" r="4.5" fill="#0f766e"/>
+<circle cx="1140" cy="452" r="4.5" fill="#b45309"/>
+<rect x="970" y="476" width="200" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="986" y="502" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2328" text-anchor="start">Local speech</text>
+<text x="986" y="524.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">SenseVoice, Whisper fallback;</text>
+<text x="986" y="541.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">no audio leaves the desk</text>
+<circle cx="1154" cy="558" r="4.5" fill="#7c3aed"/>
+<circle cx="976" cy="594" r="4.5" fill="#0f766e"/>
+<text x="984" y="598.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start">Operations</text>
+<circle cx="1056" cy="594" r="4.5" fill="#7c3aed"/>
+<text x="1064" y="598.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start">Assistant</text>
+<circle cx="1130" cy="594" r="4.5" fill="#b45309"/>
+<text x="1138" y="598.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start">Handler</text>
+<rect x="30" y="640" width="1140" height="140" rx="16" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="50" y="668" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">SHARED PLAIN-TEXT STATE</text>
+<text x="232" y="668" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">agents read these files instead of the live mailbox or chat history: cheaper, faster, the same answer every time</text>
+<rect x="50" y="684" width="268" height="80" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="64" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Chat logs</text>
+<text x="64" y="730.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">every message of every group,</text>
+<text x="64" y="747.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">both ways, with media, in seconds</text>
+<rect x="328" y="684" width="268" height="80" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="342" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Mail log</text>
+<text x="342" y="730.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">one verdict per email; codes never</text>
+<text x="342" y="747.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">kept; long numbers masked</text>
+<rect x="606" y="684" width="268" height="80" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="620" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Rolling memory</text>
+<text x="620" y="730.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">a 7-day block in each agent's</text>
+<text x="620" y="747.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">instructions, plus a weekly journal</text>
+<rect x="884" y="684" width="268" height="80" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="898" y="708" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Snapshots</text>
+<text x="898" y="730.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">taken every night, kept for</text>
+<text x="898" y="747.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">recovery</text>
+<rect x="30" y="796" width="1140" height="180" rx="16" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="50" y="824" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">DELIVERY AND OPERATIONS</text>
+<rect x="50" y="840" width="150" height="116" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="64" y="866" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">GitHub</text>
+<text x="64" y="890.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">one repository</text>
+<text x="64" y="907.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">for all agents</text>
+<defs><marker id="arrow8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow8s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 200 898 L 216 898" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow8)"/>
+<rect x="218" y="840" width="150" height="116" rx="10" fill="#ffffff" stroke="#0969da" stroke-width="1.2"/>
+<text x="232" y="866" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Deploy bot</text>
+<text x="232" y="890.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">pulls every 5 minutes</text>
+<text x="232" y="907.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">into its own clone</text>
+<defs><marker id="arrow9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow9s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 368 898 L 384 898" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow9)"/>
+<rect x="386" y="840" width="150" height="116" rx="10" fill="#ffffff" stroke="#0969da" stroke-width="1.2"/>
+<text x="400" y="866" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Checks</text>
+<text x="400" y="890.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">secret scan, compile,</text>
+<text x="400" y="907.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">full offline suite</text>
+<defs><marker id="arrow10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow10s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 536 898 L 552 898" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow10)"/>
+<rect x="554" y="840" width="150" height="116" rx="10" fill="#ffffff" stroke="#0969da" stroke-width="1.2"/>
+<text x="568" y="866" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Drift guard</text>
+<text x="568" y="890.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">refuses to overwrite</text>
+<text x="568" y="907.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">a live edit</text>
+<defs><marker id="arrow11" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow11s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 704 898 L 720 898" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow11)"/>
+<rect x="722" y="840" width="150" height="116" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="736" y="866" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Live agents</text>
+<text x="736" y="890.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">never during the</text>
+<text x="736" y="907.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">10:30 and 15:00 runs</text>
+<rect x="898" y="840" width="252" height="116" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="912" y="866" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">On a schedule</text>
+<text x="912" y="890.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">health checks every 10 minutes</text>
+<text x="912" y="907.04" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">mail watch every 2 minutes by day</text>
+<text x="912" y="924.08" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">behaviour evals each night, only</text>
+<text x="912" y="941.12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start">for agents whose instructions changed</text>
+</svg>

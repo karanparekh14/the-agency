@@ -74,21 +74,10 @@ My answer is a **Handler**, the way an intelligence agency runs field agents:
 
 ### A command's journey
 
-```mermaid
-sequenceDiagram
-  autonumber
-  actor K as Karan (phone)
-  participant H as Handler
-  participant D as Dispatcher
-  participant S as Operations agent
-  K->>H: "Tell the Operations agent to re-run the weekly report"
-  H->>K: "On it" plus a visible line: 🔧 relay: ops re-run ...
-  H->>D: reply with the command line
-  D->>D: from the owner? allowed? did he ask? crosses a wall?
-  D->>S: run the relay
-  S-->>K: result reported back
-  D->>D: decision written to the audit log
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/command-path-dark.svg">
+  <img alt="How the dispatcher decides: four checks in order, then RAN, HELD or REFUSED, every decision logged" src="docs/diagrams/command-path-light.svg" width="100%">
+</picture>
 
 <details>
 <summary><b>See the Handler decide six messages</b> (<code>python3 examples/handler_demo.py</code>)</summary>
@@ -141,6 +130,7 @@ audit log: 6 decisions recorded, sender numbers masked
 | `agency/inbox/` | Code-first inbox triage: rules before any model, a costed judge, no guessing on a missing answer, masked numbers, log limits per verdict, summaries that say why they stayed silent |
 | `agency/gate/` | The deploy gate: privacy scan (staged files and commit messages), commit traceability, drift guard, quiet windows, test runner |
 | `tests/` | 6 offline suites, run by CI on every push |
+| `docs/diagrams/` | The three diagrams in this README, light and dark, drawn by `build.py` (standard library only) |
 | `examples/` | `handler_demo.py` (the Handler deciding six messages) and `inbox_demo.py` (eight fictional emails triaged) |
 | `hooks/`, `PROJECT/ACCESS.json` | The git hooks and access rules this repository itself is developed under |
 
@@ -160,6 +150,11 @@ python3 -m agency.gate.trace --history   # every commit says who made it and why
 
 git config core.hooksPath hooks          # optional: the same pre-commit and commit-msg hooks
 ```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/inbox-triage-dark.svg">
+  <img alt="Inbox triage: plain rules first, a costed model judge for the rest, PENDING instead of a guess, and a mail log that keeps only what it should" src="docs/diagrams/inbox-triage-light.svg" width="100%">
+</picture>
 
 Sample run of the inbox demo:
 
@@ -231,47 +226,10 @@ One always-on Windows desktop runs the whole agency. The agents live in WSL2 Ubu
 do (Outlook, a visible browser, scheduled tasks in the user's session) runs on the Windows side and is
 reached through WSL interop.
 
-```mermaid
-flowchart TB
-  subgraph WA[WhatsApp]
-    G1[Team group]
-    G2[Private chat]
-    G3[Handler group]
-  end
-  subgraph WSL[WSL2 Ubuntu, always-on desktop]
-    GW[OpenClaw gateway<br/>systemd user service]
-    S[Operations agent<br/>walled Linux user]
-    P[Assistant<br/>walled Linux user]
-    O[Handler<br/>read-only]
-    D[Dispatcher<br/>runs the Handler's<br/>command lines<br/>only if sender = owner]
-    OUT[Outbox sender<br/>trusted, checks then posts]
-    CRON[cron: scheduled runs, health,<br/>mail watch, summaries, snapshots]
-    LOG[Chat and mail logs<br/>plain files every agent reads]
-    BOT[Deploy bot<br/>every 5 min]
-  end
-  subgraph WIN[Windows side]
-    OL[Outlook via COM<br/>drafts only]
-    EDGE[Edge via DevTools protocol<br/>browser tasks, readers]
-    TS[Task Scheduler<br/>session-aware tasks]
-  end
-  GH[(GitHub)]
-  AS[Apps Script bridges<br/>read and draft, no send]
-  G1 <--> GW
-  G2 <--> GW
-  G3 <--> GW
-  GW --> S & P & O
-  GW --> LOG
-  O --> D --> S & P
-  S & P --> OUT --> GW
-  CRON --> S & O
-  S --> TS --> OL & EDGE
-  O --> EDGE
-  S & O --> AS
-  AS --> LOG
-  GH --> BOT
-  P --> EDGE
-  BOT -- pull, scan, test, deploy --> S & P & O
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/diagrams/architecture-dark.svg">
+  <img alt="Architecture: WhatsApp groups, the gateway, three walled agents and the dispatcher, the tools they use, shared plain-text state, and the deploy pipeline" src="docs/diagrams/architecture-light.svg" width="100%">
+</picture>
 
 More: [docs/architecture.md](docs/architecture.md). How each agent is built, step by step:
 [docs/how-to-build-an-agent.md](docs/how-to-build-an-agent.md).

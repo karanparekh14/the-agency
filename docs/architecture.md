@@ -6,47 +6,10 @@ An always-on Windows desktop runs everything. The agents live in **WSL2 Ubuntu**
 Windows can do (Outlook through COM, a visible Edge browser, scheduled tasks in the logged-in user's
 session) live on the **Windows** side and are reached through WSL interop.
 
-```mermaid
-flowchart TB
-  subgraph WA[WhatsApp]
-    G1[Team group]
-    G2[Private chat]
-    G3[Handler group]
-  end
-  subgraph WSL[WSL2 Ubuntu, always-on desktop]
-    GW[OpenClaw gateway<br/>systemd user service]
-    S[Operations agent<br/>walled Linux user]
-    P[Assistant<br/>walled Linux user]
-    O[Handler<br/>read-only]
-    D[Dispatcher<br/>runs the Handler's<br/>command lines<br/>only if sender = owner]
-    OUT[Outbox sender<br/>trusted, checks then posts]
-    CRON[cron: scheduled runs, health,<br/>mail watch, summaries, snapshots]
-    LOG[Chat and mail logs<br/>plain files every agent reads]
-    BOT[Deploy bot<br/>every 5 min]
-  end
-  subgraph WIN[Windows side]
-    OL[Outlook via COM<br/>drafts only]
-    EDGE[Edge via DevTools protocol<br/>browser tasks, readers]
-    TS[Task Scheduler<br/>session-aware tasks]
-  end
-  GH[(GitHub)]
-  AS[Apps Script bridges<br/>read and draft, no send]
-  G1 <--> GW
-  G2 <--> GW
-  G3 <--> GW
-  GW --> S & P & O
-  GW --> LOG
-  O --> D --> S & P
-  S & P --> OUT --> GW
-  CRON --> S & O
-  S --> TS --> OL & EDGE
-  O --> EDGE
-  S & O --> AS
-  AS --> LOG
-  GH --> BOT
-  P --> EDGE
-  BOT -- pull, scan, test, deploy --> S & P & O
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="diagrams/architecture-dark.svg">
+  <img alt="Architecture: WhatsApp groups, the gateway, three walled agents and the dispatcher, the tools they use, shared plain-text state, and the deploy pipeline" src="diagrams/architecture-light.svg" width="100%">
+</picture>
 
 ## How a message becomes work
 
